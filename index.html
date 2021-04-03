@@ -13,12 +13,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action="" style="border: 60">
+        <div>
+            
+        </div>
+    <div style="  margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;">
         <label for="" name="lbUserName"> UserName</label>
         <input type="text" id="username"  name="txtUserName"><br>
         <label for=""  name="lbPassWord" >Password</label>
         <input type="password" id="passWord" name="txtPassWord"><br>
         <button class="namebt" name ="btnLogin"> LOGIN</button>
+    <div>
         
     </form>
 </body>
@@ -29,8 +37,11 @@
             if(UserName == "admin" && Password == "admin")
             {
                 alert("dang nhap thanh cong");
+
+                window.open('file:///D:/hocNODE/ThucHanhGit/sucess.html');
             }else{
                 alert("dang nhap that bai");
+               
             }
         })    
 </script>
